@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto Slab';
+  background-image: url('./images/fundo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.app {
+  background: #fff;
+  width: 960px;
+  margin: 0 auto;
+  margin-top: 40px;
+  text-align: center;
+  border-radius: 16px;
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+  padding: 10px;
+}
+
+.tarefa {
+  background: #e2e2e2;
+  margin: 16px;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.bt_concluir {
+  background: rgb(118, 196, 118);
+  color: #fff;
+  margin: 8px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.bt_concluir:hover {
+  background: rgb(185, 236, 185);
+  color: rgb(6, 109, 6);
+}
+
+.bt_remover {
+  background: rgb(240, 84, 84);
+  color: #fff;
+  margin: 8px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.bt_remover:hover {
+  background: rgb(250, 180, 180);
+  color: rgb(133, 11, 11);
+}
+
+.bt_remover:active {
+  transform: translateX(10px) translateY(10px);
+}
+
+.bt_concluir:active {
+  transform: translateX(10px) translateY(10px);
+}
+
+.cadastrar {
+  display: flex;
+  align-items: center;
+  padding: 8px;  
+}
+
+.cadastrar input {
+  width: 100%;
+  height: 28px;
+  border-radius: 8px;
+  border: 1px solid #e2e2e2;
+  padding: 4px;
+}
+
+.filtrar .conteudo {
+  display: flex;
+  align-items: center;
+  padding: 8px; 
+}
+
+.filtrar .conteudo input{
+  width: 100%;
+  margin-right: 8px;
+  height: 28px;
+  border-radius: 8px;
+  border: 1px solid #e2e2e2;
+  padding: 4px;
+}
+
+.filtrar .conteudo select{
+  width: 50%;
+  margin-right: 8px;
+  height: 38px;
+  border-radius: 8px;
+  border: 1px solid #e2e2e2;
+  padding: 4px;
+}
+
+.filtrar .conteudo button {
+  background: rgb(118, 149, 196);
+  color: #fff;
+  margin: 8px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.filtrar .conteudo button:hover {
+  background: rgb(185, 226, 236);
+  color: rgb(6, 63, 109);
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
